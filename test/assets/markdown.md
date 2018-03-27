@@ -1,3 +1,6 @@
+---
+title: test
+---
 # heading 1
 
 - buy pineapple
