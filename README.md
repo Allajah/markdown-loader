@@ -10,7 +10,7 @@ markdown-loader for webpack using [marked](https://github.com/chjj/marked).
 
 ## Installation
 
-`npm install markdown-loader`
+`npm install github:Allajah/markdown-loader`
 
 ## Usage
 
