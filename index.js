@@ -2,6 +2,7 @@
 
 const marked = require("marked");
 const loaderUtils = require("loader-utils");
+const fm = require('front-matter');
 
 module.exports = function (markdown) {
     // merge params and default config
@@ -10,6 +11,7 @@ module.exports = function (markdown) {
     this.cacheable();
 
     marked.setOptions(options);
+    const content = fm(markdown);
 
-    return marked(markdown);
+    return marked(content.body);
 };
