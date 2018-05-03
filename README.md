@@ -10,7 +10,7 @@ markdown-loader for webpack using [marked](https://github.com/chjj/marked).
 
 ## Installation
 
-`npm install github:Allajah/markdown-loader`
+`npm install github:arayaryoma/markdown-loader`
 
 ## Why use this forked one
 In some cases, you may want to use [front-matter](https://jekyllrb.com/docs/frontmatter/) to declare meta data. This trims front-matter and returns only the body.
